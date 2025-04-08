@@ -179,7 +179,7 @@ const handleApiKeyLogin = async () => {
                   type="text"
                   required
                   :class="[
-                  'block w-full rounded-md border-0 py-1.5 shadow-sm ring-1 ring-inset focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6',
+                  'block w-full rounded-md border-0 py-1.5 px-4 shadow-sm ring-1 ring-inset focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6',
                   darkMode ? 'bg-gray-700 text-white ring-gray-600 focus:ring-primary-500' : 'text-gray-900 ring-gray-300 focus:ring-primary-600',
                 ]"
               />
@@ -221,7 +221,7 @@ const handleApiKeyLogin = async () => {
                   type="text"
                   required
                   :class="[
-                  'block w-full rounded-md border-0 py-1.5 shadow-sm ring-1 ring-inset focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6',
+                  'block w-full rounded-md border-0 py-1.5 px-4 shadow-sm ring-1 ring-inset focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6',
                   darkMode ? 'bg-gray-700 text-white ring-gray-600 focus:ring-primary-500' : 'text-gray-900 ring-gray-300 focus:ring-primary-600',
                 ]"
               />
@@ -240,7 +240,7 @@ const handleApiKeyLogin = async () => {
                   type="password"
                   required
                   :class="[
-                  'block w-full rounded-md border-0 py-1.5 shadow-sm ring-1 ring-inset focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6',
+                  'block w-full rounded-md border-0 py-1.5 px-4 shadow-sm ring-1 ring-inset focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6',
                   darkMode ? 'bg-gray-700 text-white ring-gray-600 focus:ring-primary-500' : 'text-gray-900 ring-gray-300 focus:ring-primary-600',
                 ]"
               />
